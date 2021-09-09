@@ -1,0 +1,139 @@
+html{
+   background-color: #0c1027;
+}
+section{
+    /* margin-bottom: 1%; */
+    /* width: 70%; */
+    height: auto;
+   
+}
+/* Navigation-bar */
+
+.nav-bar {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+}
+.features{
+    width:200px;
+}
+.nav-bar span a{
+    color:white;
+    text-decoration: none;
+
+}
+.logo img{
+    height:40px;
+    width:60px;
+}
+.logo{
+    height:50px;
+    width:50px;
+}
+#nav-links{
+    display: flex;
+    list-style:none;
+    align-items: center;
+}
+#nav-links li a{
+    display: inline-block;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: white;
+}
+#search-box{
+    padding:5px 20px;
+    border-radius: 7%;
+    margin:0px 70px;
+    background-color: #12193e;
+    color: white;
+    width: 230px;
+}
+/* Album Covers */
+.container{
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin:3% 0 0 5%;
+    align-content: center;
+}
+.container>div>img{
+    height:12rem;
+    width: 12rem;
+    transition: all 1s ease-in-out;
+}
+.container>div>img:hover{
+    transform: scale(1.3);
+}
+
+
+
+.heading{
+    color: white;
+    font-size: 1.1rem;
+    font-family: monospace;
+    font-weight: 200;
+}
+.heading p{
+    display: block;
+    margin:0;
+}
+.cards-container{
+    height: auto;
+    width: 55%;
+    margin:3% 0 0 5%;
+    align-content: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    margin-right: 10%;
+    width: auto;
+    height: auto;
+}
+.card1 {
+    display: flex;
+    width: auto;
+    color: white;
+    margin-bottom: 2.5%;
+    transition: all 1s ease-in-out;
+    /* border: 2px solid white; */
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card-name{
+    width:50%;
+    margin-right:70px ;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.card-time{
+    font-size:0.8rem !important;
+    margin-top: 30px;
+}
+
+.text{
+    font-family: monospace;
+    font-size: 1rem;
+}
+.date{
+    margin:-20px 0px 0px 10px;
+    font-family: sans-serif !important;
+    font-size:0.65rem !important ;
+}
+.card-container>div>img{
+    height:7rem;
+    width: 7rem;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
