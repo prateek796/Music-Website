@@ -98,7 +98,7 @@ height: 50px;
     width: auto;
     height: auto;
 }
-.card1 {
+.card {
     display: flex;
     min-width: 350px;
     color: white;
@@ -106,7 +106,7 @@ height: 50px;
     transition: all 0.3s ease-in-out;
     /* border: 2px solid white; */
 }
-.card1:hover{
+.card:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 12px 0.1px rgb(141, 140, 140);
 }
@@ -135,7 +135,7 @@ height: 50px;
     height:7rem;
     width: 7rem;
 }
-.info{
+.card-info{
     display: flex;
     flex-wrap: wrap;
 }
@@ -185,7 +185,49 @@ height: 50px;
     width: 100px;
     border-radius: 50%;
 }
-.genre1 img{
+#genre1 img{
     height:140px;
     width:140px;
+}
+
+.themes-container{
+    height: auto;
+    /* width: 55%; */
+    margin:3% 0 0 10%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.theme-box{
+    width: 19.5vw;
+	height: 19vh;
+	overflow: hidden;
+	min-width: 123px;
+	min-height: 82px;
+	margin: 5px;
+	cursor: pointer;
+}
+.theme-content{
+    height:100%;
+    width:100%;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    background-size: cover;
+}
+.theme-content img{
+    height:100%;
+    width: 100%;
+}
+.theme-content span{
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  font-family: monospace;
+}
+.theme-box:hover .theme-content{
+    transform: scale(1.3);
 }
