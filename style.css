@@ -22,7 +22,7 @@ section{
 aside{
     width:25%;
     margin-right: 8%;
-    height:85vh;
+    height:100vh;
     margin-left: -3%;
 }
 aside::-webkit-scrollbar{
@@ -306,7 +306,7 @@ height: 50px;
     color: white;
     height: auto;
     overflow: scroll;
-    height:90vh;
+    height:85vh;
 }
 .queue-list::-webkit-scrollbar{
     display: none;
