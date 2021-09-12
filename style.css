@@ -4,19 +4,28 @@ html{
 section{
     width: auto;
     height: auto;
+    margin-left: 3%;
 }
 .body-container{
     display:flex;
+    margin-top:2%;
 }
 .section-container{
-    width:60%;
+    width:70%;
     margin-left: 8%;
-    margin-right: 2%;
+    overflow: scroll;
+    height:85vh;
 }
 aside{
-    width:20%;
-    margin-right: 8%;
-    margin-left: 2%;
+    width:25%;
+    margin-right: 6%;
+    height:100vh;
+}
+aside::-webkit-scrollbar{
+    display: none;
+}
+.section-container::-webkit-scrollbar{
+    display: none;
 }
 /* Navigation-bar */
 
@@ -69,6 +78,7 @@ height: 50px;
     justify-content: space-between;
     margin:3% 0 0 0;
     align-content: center;
+    width: 90%;
 }
 .container>div>img{
     height:220px;
@@ -83,7 +93,7 @@ height: 50px;
 
 .cards-container{
     height: auto;
-    width: 80%;
+    width: 85%;
     margin:3% 0 0 0%;
     align-content: center;
 }
@@ -150,6 +160,7 @@ height: 50px;
 
 .artist-container{
     height: auto;
+    width: 90%;
     margin:3% 0 0 0%;
     align-content: center;
 }
@@ -183,6 +194,8 @@ height: 50px;
     align-items: center;
     height:200px;
     overflow:hidden;
+    width: 90%;
+
 }
 .genre img{
     height: 100px;
@@ -206,6 +219,8 @@ height: 50px;
     align-content: center;
     display: flex;
     justify-content: space-between;
+    width: 90%;
+
 }
 .theme-box{
     width: 19.5vw;
@@ -215,6 +230,7 @@ height: 50px;
 	min-height: 82px;
 	margin: 5px;
 	cursor: pointer;
+    position: relative;
 }
 .theme-content{
     height:100%;
@@ -247,13 +263,105 @@ height: 50px;
     height: auto;
     margin:3% 0 0 0%;
     align-content: center;
+    width: 90%;
+
 }
 .songs-list{
     display:flex;
     justify-content: space-between;
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 .songs-list img{
-    height:140px;
-    width:150px;
+    height:110px;
+    width:120px;
+}
+.songs-list img:hover{
+    box-shadow: 0px 0px 15px 3px rgb(141, 140, 140);
+}
+
+
+.queue-container{
+    width: 90%;
+    height:auto;
+    margin-left: 3%;
+}
+.queue-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+.queue-header h4{
+    font-size:1.8rem;
+    font-family: monospace;
+    font-weight: 100;
+    margin:0;
+}
+.queue-list{
+    margin-top: 10%;
+    color: white;
+    height: auto;
+    overflow: scroll;
+    height:90vh;
+}
+.queue-list::-webkit-scrollbar{
+    display: none;
+}
+
+.left{
+    margin:auto 0;
+    margin-left: 1%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.song-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 2%;
+    height:75px;
+
+}
+.song-card:hover{
+    box-shadow: 0px 0px 12px 0.1px rgb(141, 140, 140);
+    cursor: pointer;
+}
+.song-image{
+    margin:auto 0;
+}
+.song-image img{
+    height: 60px;
+    width: 60px;
+   
+}
+.song-number{
+    margin:auto 0;
+    margin-left: 1.5%;
+}
+.song-number a{
+    color: white;
+    text-decoration: none;
+}
+.song-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.song-name a{
+    text-decoration: none;
+    color: white;
+   
+}
+.like{
+    margin: auto 0;
+    margin-right: 3%;
+}
+.like a i{
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.1s ease-in-out;
+}
+.like a i:hover{
+    color: rgb(172, 2, 2);
+  transform: scale(1.2);
 }
