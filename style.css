@@ -92,7 +92,7 @@ height: 50px;
 }
 .container>div>img:hover{
     transform: scale(1.2);
-    box-shadow: 0px 0px 12px 0.1px rgb(131, 130, 130);
+    box-shadow: 0px 0px 12px 0.1px rgb(250, 116, 232);
 }
 
 
@@ -328,15 +328,15 @@ height: 50px;
 
 }
 .song-card:hover{
-    box-shadow: 0px 0px 12px 0.1px rgb(141, 140, 140);
+    box-shadow: 0px 0px 12px 0.1px rgb(129, 222, 245);
     cursor: pointer;
 }
 .song-image{
     margin:auto 0;
 }
 .song-image img{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
    
 }
 .song-number{
