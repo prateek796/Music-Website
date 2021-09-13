@@ -68,7 +68,6 @@ html{
     }
     .section2{
         width:25%;
-        border: 1px solid yellow;
     }
 
     /* Section-1 */
@@ -158,4 +157,77 @@ html{
     .like a i:hover{
         color: rgb(172, 2, 2);
       transform: scale(1.2);
+    }
+
+    /* section-2 */
+    .similar-artist{
+        width: auto;
+        height: 50%;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color:white;
+    }
+    .header h4{
+        font-size:1.8rem;
+        font-family: monospace;
+        font-weight: 100;
+        margin:0;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8%;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+        overflow: scroll;
+        height:90%;
+    }
+    .card-container::-webkit-scrollbar{
+        display: none;
+    }
+    .card {
+        display: flex;
+        width: auto;
+        color: white;
+        margin:2% 2% 2% 2%;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 12px 0.1px rgb(2, 82, 148);
+        transform: scale(0.95);
+
+    }
+    .card:hover{
+        transform: scale(1);
+    }
+    .card-name{
+        width:50%;
+        margin-right:70px ;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .card-time{
+        font-size:0.8rem !important;
+        margin-top: 30px;
+    }
+    
+    .text{
+        font-family: monospace;
+        font-size: 1rem;
+    }
+    .date{
+        margin:-20px 0px 0px 10px;
+        font-family: sans-serif !important;
+        font-size:0.65rem !important ;
+    }
+    .card-container>div>img{
+        height:90px;
+        width: 90px;
+    }
+    .card-info{
+        display: flex;
+        flex-wrap: wrap;
     }
