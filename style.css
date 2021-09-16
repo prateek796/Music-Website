@@ -26,9 +26,6 @@ aside{
     height:85vh;
     margin-left: -3%;
 }
-aside::-webkit-scrollbar{
-    display: none;
-}
 .section-container::-webkit-scrollbar{
     display: none;
 }
@@ -78,6 +75,9 @@ transform: scale(1.1);
   text-decoration: none;
   color: white;
   font-size: 2rem;
+}
+.fa-bell{
+    font-size:1.5rem;
 }
 #search-box{
     padding:5px 20px;
