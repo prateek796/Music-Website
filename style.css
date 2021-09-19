@@ -339,6 +339,15 @@ transform: scale(1);
     font-weight: 100;
     margin:0;
 }
+.queue-header select{
+    background-color:Transparent;
+    border: none;
+    color: white;
+
+}
+.queue-header select option{
+    background-color:black;
+}
 .queue-list{
     margin-top: 8%;
     color: white;
