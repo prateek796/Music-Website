@@ -274,7 +274,7 @@ html{
     .recently-left{
         margin:auto 0;
         margin-left: 1%;
-        width: 50%;
+        width: 65%;
         display: flex;
         justify-content: space-between;
     }

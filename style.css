@@ -353,7 +353,7 @@ transform: scale(1);
 .left{
     margin:auto 0;
     margin-left: 1%;
-    width: 55%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
