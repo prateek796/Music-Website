@@ -346,10 +346,11 @@ transform: scale(1);
 
 }
 .queue-header select option{
-    background-color:black;
+    background-color:white;
+    color: black;
 }
 .queue-list{
-    margin-top: 8%;
+    margin-top: 5%;
     color: white;
     height: auto;
     overflow: scroll;
@@ -399,6 +400,7 @@ transform: scale(1);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width:30%;
 }
 .song-name a{
     text-decoration: none;
