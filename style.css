@@ -78,6 +78,15 @@ transform: scale(1.1);
 }
 .fa-bell{
     font-size:1.5rem;
+    animation: fadeIn 1s ease-in-out infinite alternate ;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
 }
 #search-box{
     padding:5px 20px;
