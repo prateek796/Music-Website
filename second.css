@@ -99,6 +99,8 @@ html{
         width: 100%;
         height: 50%;
         box-shadow: 0px 0px 12px 0.1px rgb(141, 140, 140);
+        display: flex;
+        justify-content: space-between;
 
     }
     .image{
@@ -107,6 +109,31 @@ html{
         background-image: linear-gradient(  transparent, rgb(101, 106, 138) ),url(https://i.pinimg.com/564x/3f/1c/53/3f1c5344b693a035352806504c45e624.jpg);
         background-size: cover;
     }
+    .details{
+        width:55%;
+        color: white;
+    }
+    .song-name-main{
+        font-size: 1rem;
+    }
+    .btns > button {
+        border: 0px;
+        height: 3vw;
+        width: 10vw;
+        color: white;
+        font-size: 1.2vw;
+    }
+    /* play button */
+    .btns > button:nth-child(1) {
+        background-image: linear-gradient(-19deg, red 0%, blue 100%);
+    }
+    /* follow button */
+    .btns > button:nth-child(2) {
+        background-color: transparent;
+    }
+
+
+    /* Queue */
     .queue-list{
         margin-top: 2%;
         color: white;
