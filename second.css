@@ -34,8 +34,8 @@ html{
     
     }
     .logo img{
-        height:40px;
-        width:60px;
+        height:70px;
+        width:80px;
     }
     .logo{
         height:50px;
@@ -112,9 +112,45 @@ html{
     .details{
         width:55%;
         color: white;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .jumbotron-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        /* padding-right: 12px; */
+    }
+    /* descriptive part contains the descripton of the song and action part contains the follow and play buttons */
+.descriptive-part,
+.action-part {
+	width: 100%;
+	height: max-content;
+}
+/* follower count */
+/* self explanatory */
+.author {
+	font-size: 1.5vw;
+}
+/* description of the jumbotron */
+.desc {
+	font-size: 1vw;
+}
+/* action part */
+/* .action-part {
+	padding-top: 2vw;
+} */
+.action-part p {
+	font-size: 1vw;
+}
+ .details p{
+        margin:0;
     }
     .song-name-main{
         font-size: 1rem;
+    }
+    .btns{
+        margin-top: 2.5%;
     }
     .btns > button {
         border: 0px;
